@@ -28,3 +28,6 @@ if __name__ == '__main__':
             print("Your password has been encoded and stored!")
             print()
 
+        elif choice == 2:
+            # add decode value
+
