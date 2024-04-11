@@ -36,12 +36,9 @@ if __name__ == '__main__':
             decode_string = encode(encode_string)
             print("Your password has been encoded and stored!")
             print()
-<<<<<<< HEAD
+
 
         elif choice == 2:
-            # add decode value
+            print(f"The encoded password is {decode_string}, and the original password is {decode(decode_string)}.")
+            print()
 
-=======
-        elif choice == 2:
-            print(f"The encoded password is {decode_string}, and the original password is {decode(decode_string)}")
->>>>>>> ae3eb3863bb20065543bc96bda7a2e287e10f04d
